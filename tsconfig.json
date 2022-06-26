@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es2022",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"]
+    },
+    "incluude": [ "src/**" ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
